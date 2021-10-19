@@ -1,7 +1,6 @@
 import React from 'react';
-import Calculator from './components/Calculator';
 
-class App extends React.Component {
+class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -9,9 +8,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <Calculator />
+      <div>Calculator</div>
     );
   }
 }
 
-export default App;
+export default Calculator;
