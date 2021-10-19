@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
+  const [state, myState] = useState({ total: null, next: null, operation: null });
   return (
     <table className="TableContainer">
       <tbody>
