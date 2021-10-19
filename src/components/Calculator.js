@@ -8,7 +8,7 @@ const Calculator = () => {
   const changeState = (e) => {
     myState({ ...state, ...calculate(state, e.target.innerText) });
   };
-  
+
   return (
     <table className="TableContainer">
       <tbody>
