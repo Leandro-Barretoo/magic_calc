@@ -5,7 +5,15 @@ import calculate from '../logic/calculate';
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null,
+    };
+    this.handler = this.handler.bind(this);
+  }
+
+  handler(e) {
+    this.setState((state) => calculate(state, e.target.innerText));
   }
 
   render() {
