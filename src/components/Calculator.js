@@ -4,6 +4,11 @@ import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, myState] = useState({ total: null, next: null, operation: null });
+
+  const changeState = (e) => {
+    myState({ ...state, ...calculate(state, e.target.innerText) });
+  };
+  
   return (
     <table className="TableContainer">
       <tbody>
