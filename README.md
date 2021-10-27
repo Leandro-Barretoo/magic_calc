@@ -28,6 +28,12 @@ To get a local copy up and running follow these simple example steps.
 - open in your desired code editor
 - run `npm start` to start live server
 
+### Tests
+
+To get started in tests just follow these simple exapmle steps.
+
+- Once in the directory run `npm test`
+
 ## Authors
 
 👤 **Leandro Barreto**
