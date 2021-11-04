@@ -12,7 +12,7 @@ It is a Single Page App (SPA) that allows users to:
     
 ## Live Demo
 
-[Netlify](https://mystifying-ramanujan-72afd0.netlify.app/math__magicians)
+[Netlify](https://mystifying-ramanujan-72afd0.netlify.app/)
 
 ## Built With
 
