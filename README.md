@@ -9,6 +9,10 @@
 It is a Single Page App (SPA) that allows users to:
     -> Make simple calculations.
     -> Read a random math-related quote.
+    
+## Live Demo
+
+[Netlify](https://mystifying-ramanujan-72afd0.netlify.app/math__magicians)
 
 ## Built With
 
